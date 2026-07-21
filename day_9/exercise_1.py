@@ -14,3 +14,14 @@ print(a.dtype)
 print(b.shape)              
 print(b.ndim)               
 print(b.dtype)              
+
+c = np.array([[1, 2, 3],
+              [4, 5, 6],
+              [7, 8, 9]])
+
+print(c[0, 0])              
+print(c[1, 2])              
+print(c[0])                 
+print(c[:, 1])              
+print(c[0:2, 1:3])          
+                            
