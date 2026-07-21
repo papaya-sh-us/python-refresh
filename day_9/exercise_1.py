@@ -25,3 +25,7 @@ print(c[0])
 print(c[:, 1])              
 print(c[0:2, 1:3])          
                             
+a = np.arange(12)           
+print(a.reshape(3, 4).shape)    
+print(a.reshape(4, 3).shape)    
+print(a.reshape(2, -1).shape)                               
